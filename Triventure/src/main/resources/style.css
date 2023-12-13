@@ -1,0 +1,29 @@
+/* style.css */
+@font-face {
+    font-family: PixelFont;
+    src: url('./fonts/pixelated.ttf');
+}
+
+#title-text {
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff5733;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#button-text {
+    -fx-font-family: 'PixelFont';
+    -fx-font-size: 26px;
+    -fx-cell-size: 200 100;
+    -fx-font-weight: bold;
+}
+
+#menu-screen {
+    -fx-background-image: url("./images/background.jpg");
+    -fx-background-size: stretch;
+}
+
+.background {
+    -fx-background-image: url('./images/backrgound.png');
+    -fx-background-repeat: repeat;
+}
